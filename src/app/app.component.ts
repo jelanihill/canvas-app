@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ROUTER_DIRECTIVES } from '@angular/router';
 
-import '../style/app.scss';
+import '../styles/bootstrap.scss';
 
 /*
  * App Component
