@@ -1,3 +1,4 @@
-<p>
-  Home Works!
-</p>
+<ul class="nav nav-tabs">
+  <li role="presentation" [class.active]="!isToggled" (click)="toggleNav()"><a href="#">All Pads</a></li>
+  <li role="presentation" [class.active]="isToggled" (click)="toggleNav()"><a href="#">Your Pads</a></li>
+</ul>

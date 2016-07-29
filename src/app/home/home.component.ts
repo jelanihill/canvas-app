@@ -7,12 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  isToggled = false;
+
   constructor() {
     // Do stuff
   }
 
   ngOnInit() {
     console.log('Hello Home');
+  }
+
+  toggleNav() {
+    this.isToggled = !this.isToggled;
   }
 
 }
