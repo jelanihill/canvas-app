@@ -2,3 +2,11 @@
   <li role="presentation" [class.active]="!isToggled" (click)="toggleNav()"><a href="#">All Pads</a></li>
   <li role="presentation" [class.active]="isToggled" (click)="toggleNav()"><a href="#">Your Pads</a></li>
 </ul>
+<div class="tab-content">
+  <div class="tab-pane" [class.active]="!isToggled" id="canvas-list">
+    <my-canvas-list></my-canvas-list>
+  </div>
+  <div class="tab-pane" [class.active]="isToggled" id="your">
+    <p>Goodbye</p>
+  </div>
+</div>
