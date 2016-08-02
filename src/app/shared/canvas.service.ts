@@ -4,17 +4,17 @@ export class CanvasService {
         {
             id: 1,
             description: 'This Canvas has drawings of bunnies',
-            imageUrl: 'http://lorempixel.com/100/100/people?1'
+            imageUrl: 'http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder-Copy.png'
         },
         {
             id: 2,
             description: 'This one has drawings of planes',
-            imageUrl: 'http://lorempixel.com/100/100/people?2'
+            imageUrl: 'http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder-Copy.png'
         },
         {
             id: 3,
             description: 'This is really bad',
-            imageUrl: 'http://lorempixel.com/100/100/people?3'
+            imageUrl: 'http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder-Copy.png'
         }];
     }
 }

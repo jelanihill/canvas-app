@@ -1,11 +1,10 @@
 import {Component, OnInit} from '@angular/core';
-import {CanvasService} from './canvas.service';
-import {CanvasComponent} from './canvas.component'
+import {CanvasService} from '../../shared/canvas.service';
+import {CanvasComponent} from './canvas.component';
 
 @Component({
     selector: 'my-canvas-list',
     templateUrl: './canvas-list.component.html',
-    styleUrls: ['./canvas.list.component.scss'],
     providers: [CanvasService],
     directives: [CanvasComponent]
 })
