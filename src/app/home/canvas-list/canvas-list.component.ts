@@ -1,12 +1,13 @@
 import {Component, OnInit} from '@angular/core';
 import {CanvasService} from '../../shared/canvas.service';
-import {CanvasComponent} from './canvas.component';
+import {MiniCanvasComponent} from './canvas-mini.component';
 
 @Component({
     selector: 'my-canvas-list',
     templateUrl: './canvas-list.component.html',
+    styleUrls: ['./canvas-list.component.scss'],
     providers: [CanvasService],
-    directives: [CanvasComponent]
+    directives: [MiniCanvasComponent]
 })
 
 export class CanvasListComponent implements OnInit {
